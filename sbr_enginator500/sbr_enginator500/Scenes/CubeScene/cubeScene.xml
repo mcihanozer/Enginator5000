@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Ambient color is optional, and is not in use for now -->
+<scene>
+	<!-- Also type="perspective" option can be added -->
+	<!-- Only position and lookAt are required. Rest is optional -->
+	<camera position="0 0 3" lookAt="0 0 0" upVector="0 1 0" fov="90" distanceNear="0.5" distanceFar="1000" ratio="1.33"/>
+	
+	<!-- After adding <node>, we will have instancing -->
+	<!-- Only type and path are required. Rest is optional -->
+	<node>
+		<mesh type="obj" path="F:\MCO\mco-svn\Cihan\Enginator5000\sbr_enginator500\sbr_enginator500\Scenes\CubeScene\bunny.obj">
+			<!-- <material> will be also added. Right now, we will only render with red color -->
+			<transform translation="0 1 0" rotation="0 0 0" scale="1 1 1"/> 
+		</mesh>
+		
+	<!--	<mesh type="obj" path="F:\MCO\mco-svn\Cihan\Enginator5000\sbr_enginator500\sbr_enginator500\Scenes\CubeScene\cube.obj">
+			<!-- <material> will be also added. Right now, we will only render with red color -->
+	<!--		<transform translation="1 -1 0" rotation="0 0 0" scale="1 1 1"/>
+	 	</mesh>-->
+	</node>
+	
+<!-- 	<node translation="5 0 0" rotation="0 0 0" scale="1 1 1">
+		<mesh type="obj" path="F:\MCO\mco-svn\Cihan\Enginator5000\sbr_enginator500\sbr_enginator500\Scenes\CubeScene\cube.obj">
+			<!-- <material> will be also added. Right now, we will only render with red color -->
+	<!--	</mesh>
+		
+		<mesh type="obj" path="F:\MCO\mco-svn\Cihan\Enginator5000\sbr_enginator500\sbr_enginator500\Scenes\CubeScene\cube.obj">
+			<!-- <material> will be also added. Right now, we will only render with red color -->
+	<!--		<transform/>
+		</mesh>
+	</node> -->
+	
+</scene>

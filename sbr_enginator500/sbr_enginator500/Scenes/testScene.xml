@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Ambient color is optional, and is not in use for now -->
+<scene>
+	<!-- Also type="perspective" option can be added -->
+	<!-- Only position and lookAt are required. Rest is optional -->
+	<camera position="0 0 1" lookAt="0 0 0" distanceNear="0.5" distanceFar="3.5"/>
+	
+	<!-- After adding <node>, we will have instancing -->
+	<!-- Only type and path are required. Rest is optional -->
+	<node>
+		<mesh type="smd" path="data/test.smd">
+			<!-- <material> will be also added. Right now, we will only render with red color -->
+		</mesh>
+	</node>
+	
+</scene>

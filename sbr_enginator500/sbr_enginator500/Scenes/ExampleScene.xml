@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- This XML file is an example for a scene used in the Enginator5000 -->
+
+<!-- Ambient color is optional, and is not in use for now -->
+<scene ambient="0.1 0.1 0.1 1.0">
+
+	<!-- Also type="perspective" option can be added -->
+	<!-- Only position and lookAt are required. Rest is optional -->
+	<camera position="0.5 0.5 2" lookAt="0.5 0.5 0.5" upVector="0 1 0" fov="90" distanceNear="0.5" distanceFar="3" ratio="1.33"/>
+	
+	<!--  <node> is used for instancing. Each mesh should be in a <node>. -->
+	<!--  Translation, rotation, and scale is optional, and in this case, Enginator5000 assumes parent matrix is identity matrix -->
+	<node translation="0 1 0" rotation="0 30.1 0" scale="0.5 0.5 0.5">
+		<!-- Only type and path are required. Rest is optional -->
+		<mesh type="smd || obj || ezm" path="data/test.smd" translation="0 1 0" rotation="0 30.1 0" scale="0.5 0.5 0.5">
+			<!-- transform of the mesh. it may include translation, rotation, scale -->
+			<transform translation="10 10 0" rotation="0 0 45" scale="1 1 1">
+			<!-- <material> will be also added. Right now, we will only render with red color -->
+		</mesh>
+	</node>
+	
+</scene>

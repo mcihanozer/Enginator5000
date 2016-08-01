@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- This XML file defines Window property and test which will be used during the rendering -->
+
+<!-- Ambient color is optional, and is not in use for now -->
+<game>
+
+	<!-- Defines properties of the window which will be used -->
+	<!-- Default values are 1024x768, not full screen, centered -->
+	<window width="1024" height="768" isFullScreen="true || false" position="centered || in int int (300 200) format"/>
+
+	<!-- Keeps all the scenes which will be used in the game -->
+	<sceneList>
+		<!-- Scenes are defined with a name and path. Scenes are also XML files -->
+		<scene name="nameOfTheScene" path="path\Of\the\Scene.xml" />
+		<scene name="nameOfTheScene" path="path\Of\the\Scene.xml" />
+		<scene name="nameOfTheScene" path="path\Of\the\Scene.xml" />
+	</sceneList>
+	
+</game>
