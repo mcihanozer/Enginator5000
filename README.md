@@ -9,3 +9,7 @@ Enginator5000 depends on GLM for matrix operations, SDL for creating window and 
 I am planning to work on Enginator5000 again in Winter 2017 (after I am done with my thesis). So, hopefully, I will update this page, tips, and GitHub page of Enginator5000 a lot in the winter.
 
 Warning: Current code on GitHub/Enigator5000 is highly unstable, and immature. Lots of radical changes may happen in the near future.
+
+![Alt text](http://www.mcihanozer.com/wp-content/uploads/BresenhamAndTriangleFillingAnimation.png "Screenshot")
+
+![Alt text](http://www.mcihanozer.com/wp-content/uploads/FillingTriangles.png "Screenshot")
